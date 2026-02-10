@@ -1,0 +1,157 @@
+        body {
+            /* removes margin from the whole ~whole~ */
+            margin: 0;
+            /* font */
+            font-family: "Bungee", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        /* simular to custom functions */
+        .header {
+            background-color: #5656ff;
+            /* border: 6px black dashed; */
+            padding: 10px 50px;
+            /* display flex makes thing display horizontal */
+            display: flex;
+            /* makes space between logo and links */
+            justify-content: space-between;
+            /* makes every thing centre on a line*/
+            align-items: center;
+        }
+
+        .header-links a {
+            color: white;
+            padding: 5px 15px;
+            /* choice what the txt looks like */
+            text-decoration: none;
+        }
+
+        .logo {
+            width: 100px;
+        }
+        
+        /* animated 'hover' */
+        .header-links a:hover {
+            background-color: #a3a3ff;
+            border-radius: 7.5px;
+        }
+        .header-links button {
+            background-color: #ee626b;
+            padding: 5px 15px;
+            border-radius: 15px;
+            border: none;
+            color: white;
+            
+        }
+
+        .header-links button:hover {
+            background-color: #f6a9ae;
+        }
+
+/* landing page S */
+        .landing_page {
+            background-color: #5656ff;
+            color: white;
+            display: flex;
+            justify-content: space-between ;
+            align-items: center;
+            padding: 25px 50px;
+            border-radius: 0px 0px 20px 20px;
+        }
+/* landing text */
+        .landing_page_left {
+            width: 450px;
+        }
+
+/* seach bar ~input~ */
+        .landing_page_search input {
+            border-radius: 10px;
+            border: none;
+            padding: 10px;
+        }
+
+        .landing_page_search input:focus {
+            outline: none;
+        }
+
+/* search button */
+        .landing_page_search button {
+            padding: 10px;
+            background-color: #ee626b;
+            border: none;
+            color: white;
+            border-radius: 10px;
+            position: absolute;
+            left: 200px;
+        }
+
+        .landing_page_search button:hover {
+            background-color: #f6a9ae;
+        }
+
+/* landing page image */
+        .landing_page_image img {
+            border-radius: 15px;
+            width: 250px;
+        }
+/* landing page E */
+
+/* trending page */
+.trending-container {
+    padding: 25px 50px;
+}
+
+.trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-button {
+    background-color: #ee626b;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.trending-button:hover {
+    background-color: #f6a9ae;
+}
+
+.trending-card img{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #5656ff;
+    border-radius: 50px;
+}
+
+.trending-card h3 {
+    padding: 5px 5px;
+    text-align: center;
+    height: 50px;
+}
+
+.trending-cards {
+    display: flex;
+    gap: 100px;
+}
+
+/* footer */
+
+.footer-container {
+    background-color:#5656ff ;
+    height: 150px;
+    border-radius: 100px 100px 0 0;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer {
+    margin: auto;
+    text-align: center;
+}
